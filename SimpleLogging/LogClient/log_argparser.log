@@ -1,0 +1,315 @@
+2014-11-09 23:26:055 INFO                  c~.a~.MyCa$.Main:12  -  Main class started
+2014-11-09 23:26:055 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-09 23:26:055 DEBUG                 c~.a~.MyCa$.Main:17  - try to startConsole 
+2014-11-09 23:26:055 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-09 23:26:055 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-09 23:26:055 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-09 23:26:055 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-09 23:26:055 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-09 23:26:055 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-09 23:26:059 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-09 23:26:059 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-09 23:26:059 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-09 23:26:059 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-09 23:26:059 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-09 23:26:059 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-09 23:26:059 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-09 23:26:059 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-10 20:11:026 INFO                  c~.a~.MyCa$.Main:12  -  Main class started
+2014-11-10 20:11:026 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-10 20:11:026 DEBUG                 c~.a~.MyCa$.Main:17  - try to startConsole 
+2014-11-10 20:11:026 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-10 20:11:026 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-10 20:11:026 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-10 20:11:026 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-10 20:11:026 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-10 20:11:026 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-10 20:11:029 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-10 20:11:029 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:029 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-10 20:11:029 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-10 20:11:029 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-10 20:11:030 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-10 20:11:030 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-10 20:11:031 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #1
+2014-11-10 20:11:031 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 1
+2014-11-10 20:11:031 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:031 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-10 20:11:031 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-10 20:11:031 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-10 20:11:031 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 601
+2014-11-10 20:11:031 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-10 20:11:031 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-10 20:11:031 DEBUG       c~.a~.cmdp$.ActionExecutor:45  - try to call calendarClient.searchAll() 
+2014-11-10 20:11:031 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-10 20:11:033 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: sdfsd
+2014-11-10 20:11:033 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:033 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got sdfsd
+2014-11-10 20:11:035 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: uodate
+2014-11-10 20:11:035 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:035 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got uodate
+2014-11-10 20:11:038 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: update
+2014-11-10 20:11:038 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:038 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "update"
+2014-11-10 20:11:038 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-10 20:11:038 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-10 20:11:040 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-10 20:11:040 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-10 20:11:040 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-10 20:11:040 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-10 20:11:040 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-10 20:11:040 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-10 20:11:040 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-10 20:11:040 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 16:37:015 INFO                  c~.a~.MyCa$.Main:12  -  Main class started
+2014-11-16 16:37:015 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 16:37:015 DEBUG                 c~.a~.MyCa$.Main:17  - try to startConsole 
+2014-11-16 16:37:015 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 16:37:015 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 16:37:015 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 16:37:015 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 16:37:015 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 16:37:015 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 16:37:020 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: fgdfgdfg
+2014-11-16 16:37:020 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:37:020 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got fgdfgdfg
+2014-11-16 16:41:000 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 16:41:000 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:41:000 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 16:41:000 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 16:41:000 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:41:000 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 16:41:000 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 16:41:000 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 16:41:003 INFO                  c~.a~.MyCa$.Main:12  -  Main class started
+2014-11-16 16:41:003 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 16:41:003 DEBUG                 c~.a~.MyCa$.Main:17  - try to startConsole 
+2014-11-16 16:41:003 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 16:41:003 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 16:41:003 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 16:41:003 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 16:41:003 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 16:41:003 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 16:41:026 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: create -t
+2014-11-16 16:41:026 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:41:026 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a value after parameter -t
+2014-11-16 16:41:029 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: create -t lkdfg
+2014-11-16 16:41:029 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:41:029 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "create"
+2014-11-16 16:41:029 DEBUG cmdp$.ArgumentParser$ParseCreate:162 -  parsing create command...
+2014-11-16 16:41:029 DEBUG cmdp$.ArgumentParser$ParseCreate:171 - got EventParameters instance with:
+2014-11-16 16:41:029 DEBUG      c~.a~.cmdp$.EventParameters:40  - actionTypeId: 100;
+ title: lkdfg;
+ description: ;
+ attendersList: [];
+ timeList: []
+2014-11-16 16:41:029 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 16:41:029 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:41:029 WARN    c~.a~.vali$.EventValidatorImpl:20  - Date is not defined properly!
+2014-11-16 16:41:029 DEBUG       c~.a~.cmdp$.ActionExecutor:28  - try to call service.createEvent(evParameters.getTitle(), ...) 
+2014-11-16 16:41:029 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 16:41:042 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-16 16:41:042 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:41:042 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 16:41:042 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-16 16:41:042 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-16 16:41:042 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:41:042 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 16:41:043 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #1
+2014-11-16 16:41:043 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 1
+2014-11-16 16:41:043 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:41:043 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 16:41:043 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-16 16:41:043 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-16 16:41:043 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 601
+2014-11-16 16:41:043 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 16:41:043 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:41:043 DEBUG       c~.a~.cmdp$.ActionExecutor:45  - try to call calendarClient.searchAll() 
+2014-11-16 16:41:043 DEBUG             c~.a~.MyCa$.MyClient:22  - call searchAll()
+2014-11-16 16:41:043 INFO              c~.a~.MyCa$.MyClient:16  - returned last search result
+2014-11-16 16:41:043 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 16:46:053 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-16 16:46:053 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:46:053 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 16:46:053 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-16 16:46:053 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-16 16:46:053 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:46:053 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 16:46:055 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #2
+2014-11-16 16:46:055 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 2 -t fghfgh
+2014-11-16 16:46:055 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:46:055 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 16:46:055 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-16 16:46:055 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-16 16:46:055 DEBUG      c~.a~.cmdp$.EventParameters:40  - actionTypeId: 602;
+ title: fghfgh;
+ description: null;
+ attendersList: null;
+ timeList: null
+2014-11-16 16:46:055 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 16:46:055 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:46:055 DEBUG       c~.a~.cmdp$.ActionExecutor:51  - try to call calendarClient.searchAll() 
+2014-11-16 16:46:055 INFO              c~.a~.MyCa$.MyClient:16  - returned last search result
+2014-11-16 16:46:055 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 16:57:054 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 16:57:054 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 16:57:054 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 16:57:054 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 16:57:054 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 16:57:054 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 16:57:054 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 16:57:054 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 19:18:022 INFO                  c~.a~.MyCa$.Main:17  -  Main class started
+2014-11-16 19:18:023 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 19:18:023 DEBUG                 c~.a~.MyCa$.Main:22  - try to startConsole 
+2014-11-16 19:18:023 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 19:18:023 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 19:18:023 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 19:18:023 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 19:18:023 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 19:18:023 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 19:18:026 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: ddd
+2014-11-16 19:18:026 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 19:18:026 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got ddd
+2014-11-16 19:18:029 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 19:18:029 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 19:18:029 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 19:18:029 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 19:18:029 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 19:18:029 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 19:18:029 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 19:18:029 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 19:18:036 INFO                  c~.a~.MyCa$.Main:17  -  Main class started
+2014-11-16 19:18:036 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 19:18:036 DEBUG                 c~.a~.MyCa$.Main:22  - try to startConsole 
+2014-11-16 19:18:036 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 19:18:036 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 19:18:036 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 19:18:036 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 19:18:036 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 19:18:036 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 19:18:038 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-16 19:18:038 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 19:18:038 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 19:18:038 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-16 19:18:038 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-16 19:18:038 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 19:18:038 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 19:18:039 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #1
+2014-11-16 19:18:039 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 1
+2014-11-16 19:18:039 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 19:18:039 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 19:18:039 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-16 19:18:039 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-16 19:18:039 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 601
+2014-11-16 19:18:039 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 19:18:039 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 19:18:039 DEBUG       c~.a~.cmdp$.ActionExecutor:45  - try to call calendarClient.searchAll() 
+2014-11-16 19:18:039 DEBUG             c~.a~.MyCa$.MyClient:22  - call searchAll()
+2014-11-16 19:18:039 INFO              c~.a~.MyCa$.MyClient:16  - returned last search result
+2014-11-16 19:18:039 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 19:18:041 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 19:18:041 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 19:18:041 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 19:18:041 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 19:18:041 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 19:18:041 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 19:18:041 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 19:18:041 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 20:00:027 INFO                  c~.a~.MyCa$.Main:17  -  Main class started
+2014-11-16 20:00:027 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 20:00:027 DEBUG                 c~.a~.MyCa$.Main:22  - try to startConsole 
+2014-11-16 20:00:027 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 20:00:027 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 20:00:027 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 20:00:027 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 20:00:028 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 20:00:028 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 20:00:030 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-16 20:00:030 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 20:00:030 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 20:00:030 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-16 20:00:030 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-16 20:00:030 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 20:00:030 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 20:00:031 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #1
+2014-11-16 20:00:031 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 1
+2014-11-16 20:00:031 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 20:00:031 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 20:00:031 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-16 20:00:031 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-16 20:00:031 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 601
+2014-11-16 20:00:031 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 20:00:031 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 20:00:031 DEBUG       c~.a~.cmdp$.ActionExecutor:45  - try to call calendarClient.searchAll() 
+2014-11-16 20:00:031 DEBUG             c~.a~.MyCa$.MyClient:22  - call searchAll()
+2014-11-16 20:00:031 INFO              c~.a~.MyCa$.MyClient:16  - returned last search result
+2014-11-16 20:00:031 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 20:00:032 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 20:00:032 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 20:00:032 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 20:00:032 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 20:00:032 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 20:00:032 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 20:00:032 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 20:00:032 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 22:38:029 INFO                  c~.a~.MyCa$.Main:17  -  Main class started
+2014-11-16 22:38:029 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 22:38:029 DEBUG                 c~.a~.MyCa$.Main:22  - try to startConsole 
+2014-11-16 22:38:029 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 22:38:029 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 22:38:029 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 22:38:029 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 22:38:029 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 22:38:029 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 22:38:031 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: zdfsdf
+2014-11-16 22:38:031 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:38:031 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got zdfsdf
+2014-11-16 22:38:033 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 22:38:033 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:38:033 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 22:38:033 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 22:38:033 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 22:38:033 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 22:38:033 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 22:38:033 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.
+2014-11-16 22:45:012 INFO                  c~.a~.MyCa$.Main:17  -  Main class started
+2014-11-16 22:45:012 DEBUG         c~.a~.cmdp$.ConsoleInput:19  - Initialized ConsoleInput with CalendarClient com.agn.MyCalendarClient.MyClient
+2014-11-16 22:45:012 DEBUG                 c~.a~.MyCa$.Main:22  - try to startConsole 
+2014-11-16 22:45:012 DEBUG         c~.a~.cmdp$.ConsoleInput:36  - try to start doParse() without input arguments.
+2014-11-16 22:45:012 DEBUG  c~.a~.cmdp$.ConstActionTypeEnum:43  - commandCode collection is created with 8 commands.
+2014-11-16 22:45:012 DEBUG       c~.a~.cmdp$.ArgumentParser:28  - setup new instance 
+2014-11-16 22:45:012 DEBUG       c~.a~.cmdp$.ArgumentParser:40  - got the new JCommander instance.
+2014-11-16 22:45:012 DEBUG       c~.a~.cmdp$.ArgumentParser:68  - filled JCommander instance with handler objects: 8 commands.
+2014-11-16 22:45:012 DEBUG         c~.a~.cmdp$.ConsoleInput:49  - try to enter to infinite loop...
+2014-11-16 22:45:014 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: sdfsdfs
+2014-11-16 22:45:014 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:45:014 WARN        c~.a~.cmdp$.ArgumentParser:87  - some error with parsing: Expected a command, got sdfsdfs
+2014-11-16 22:45:015 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search
+2014-11-16 22:45:015 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:45:015 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 22:45:015 INFO        c~.a~.cmdp$.ArgumentParser:296 - search mode is ON
+2014-11-16 22:45:015 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 600
+2014-11-16 22:45:015 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 22:45:015 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 22:45:016 INFO        c~.a~.cmdp$.ArgumentParser:75  - parsing search engine #1
+2014-11-16 22:45:016 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: search -searchEngineNumber 1
+2014-11-16 22:45:016 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:45:017 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "search"
+2014-11-16 22:45:017 INFO        c~.a~.cmdp$.ArgumentParser:301 - search mode is OFF
+2014-11-16 22:45:017 DEBUG cmdp$.ArgumentParser$ParseSearch:256 -  parsing search command...
+2014-11-16 22:45:017 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 601
+2014-11-16 22:45:017 DEBUG       c~.a~.cmdp$.ArgumentParser:144 - Parser cleared its variables.
+2014-11-16 22:45:017 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 22:45:017 DEBUG       c~.a~.cmdp$.ActionExecutor:45  - try to call calendarClient.searchAll() 
+2014-11-16 22:45:017 DEBUG             c~.a~.MyCa$.MyClient:22  - call searchAll()
+2014-11-16 22:45:017 INFO              c~.a~.MyCa$.MyClient:16  - returned last search result
+2014-11-16 22:45:017 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns false
+2014-11-16 22:45:018 INFO        c~.a~.cmdp$.ArgumentParser:78  - string to parse is: exit
+2014-11-16 22:45:018 DEBUG       c~.a~.cmdp$.ArgumentParser:82  - try to parse by JCommander
+2014-11-16 22:45:018 DEBUG       c~.a~.cmdp$.ArgumentParser:94  - parsed command is "exit"
+2014-11-16 22:45:018 DEBUG      c~.a~.cmdp$.EventParameters:24  - actionTypeId: 999
+2014-11-16 22:45:018 DEBUG .vali$.ActionParametersValidator:18  -  validate phase starts...
+2014-11-16 22:45:018 DEBUG       c~.a~.cmdp$.ActionExecutor:57  - application is going to exit 
+2014-11-16 22:45:018 DEBUG       c~.a~.cmdp$.ActionExecutor:19  - call isBreakApplication() returns true
+2014-11-16 22:45:018 DEBUG         c~.a~.cmdp$.ConsoleInput:83  - exited from infinite loop.

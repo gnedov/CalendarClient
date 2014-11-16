@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="validator" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./Log/log_validator.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %25.25c{3}:%-3L - %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>./Log/Zipped/log_validator.%i.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <appender name="parser" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>./Log/log_parser.log</File>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:sss} %-5p %25.25c{3}:%-3L - %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>./Log/Zipped/log_parser.%i.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <appender name="client" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>./Log/log_client.log</File>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %25.25c{3}:%-3L - %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>./Log/Zipped/log_client.%i.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>./Log/log_file.log</File>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %32.32c{15}:%-3L - %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>./Log/Zipped/log_file.%i.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    <logger name="com.agn.validator" level="DEBUG">
+        <appender-ref ref="validator"/>
+    </logger>
+    <logger name="com.agn.cmdparser" level="DEBUG">
+        <appender-ref ref="parser"/>
+    </logger>
+    <logger name="com.agn.CalendarClientNew" level="DEBUG">
+        <appender-ref ref="client"/>
+    </logger>
+    <root level="WARN">
+        <appender-ref ref="file"/>
+    </root>
+</configuration>

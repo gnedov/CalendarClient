@@ -1,0 +1,15 @@
+2014-11-14 00:16:38.539 DEBUG            c.a.C.MyClient:23  - calling searchAll()
+2014-11-14 00:16:38.539 DEBUG            c.a.C.MyClient:17  - getLastSearchResult returned:[111, 222, 3333]
+2014-11-16 16:21:41.157 INFO       c.a.C.TestLoggingBar:12  - Hello from bar
+2014-11-16 16:21:41.157 DEBUG      c.a.C.TestLoggingBar:14  - in my bar name is lordofthejars
+2014-11-16 16:21:41.166 INFO       c.a.C.TestLoggingBar:12  - Hello from Foo
+2014-11-16 16:21:41.166 DEBUG      c.a.C.TestLoggingBar:13  - In foo my namr is Alex
+2014-11-16 16:21:41.166 INFO            c.a.C.ClientNew:31  - get out from the application!
+2014-11-16 16:21:41.166 DEBUG           c.a.C.ClientNew:32  - close app
+2014-11-16 16:28:14.279 INFO            c.a.C.ClientNew:21  - Application has been started
+2014-11-16 16:28:14.305 DEBUG           c.a.C.ClientNew:25  - try to startConsole 
+2014-11-16 16:29:13.511 DEBUG            c.a.C.MyClient:23  - calling searchAll()
+2014-11-16 16:29:13.511 DEBUG            c.a.C.MyClient:17  - getLastSearchResult returned:[111, 222, 3333]
+2014-11-16 16:31:29.341 DEBUG            c.a.C.MyClient:32  - calling searchByTitle(s) s=dfgdfg
+2014-11-16 16:31:29.341 DEBUG            c.a.C.MyClient:17  - getLastSearchResult returned:[dfgdfg]
+2014-11-16 16:31:35.644 INFO            c.a.C.ClientNew:27  - Application has been closed 

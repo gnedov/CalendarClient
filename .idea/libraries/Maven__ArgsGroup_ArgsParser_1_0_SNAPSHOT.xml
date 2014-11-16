@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ArgsGroup:ArgsParser:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Lib/ArgsParser-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ArgsGroup/ArgsParser/1.0-SNAPSHOT/ArgsParser-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../ArgsParserREPO/ArgsParser/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
