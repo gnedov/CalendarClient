@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.7">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lib/log4j-over-slf4j-1.7.7.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7-javadoc.jar!/" />

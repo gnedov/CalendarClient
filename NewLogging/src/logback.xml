@@ -17,7 +17,7 @@
     <appender name="parser" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>./Log/log_parser.log</File>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:sss} %-5p %25.25c{3}:%-3L - %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %25.25c{3}:%-3L - %m%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <FileNamePattern>./Log/Zipped/log_parser.%i.zip</FileNamePattern>

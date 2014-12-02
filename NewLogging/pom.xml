@@ -6,10 +6,11 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <groupId>NewLogging</groupId>
     <artifactId>NewLogging</artifactId>
-    <packaging>war</packaging>
-    <name>NewLogging Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <version>1.0</version>
 
     <properties>
         <slf4j.version>1.7.7</slf4j.version>
@@ -32,21 +33,17 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
-
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-
     </dependencies>
-
     <build>
         <finalName>NewLogging</finalName>
     </build>

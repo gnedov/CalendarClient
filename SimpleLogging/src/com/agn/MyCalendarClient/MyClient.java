@@ -14,6 +14,8 @@ public class MyClient implements CalendarClient {
     @Override
     public Collection getLastSearchResult() {
         LOG.info("returned last search result");
+        if(strList.size() == 0)
+            LOG.warn("Nothing found!");
         return strList;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
